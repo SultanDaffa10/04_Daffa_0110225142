@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+header, footer {
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+aside {
+    background-color: teal;
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+article {
+    background-color: #ff6666;
+    flex: 3;
+    padding: 20px;
+    color: white;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image {
+    background-color: lightgray;
+    flex: 1;
+    height: 100px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
